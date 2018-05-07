@@ -23,9 +23,9 @@ server.listen(PORT, function() {
 });
 
 
-// or alternative ************************************************************************** */
+// port 7500 */
 
-var http = require("http");
+// var http = require("http");
 
 http.createServer(function(request, response) {
 response.end('You need to start reading more important stuff than this')
